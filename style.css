@@ -25,6 +25,15 @@ a {
     text-decoration: none;
 }
 
+#progress {
+    height: 5px;
+    width: 0;
+    background-color: #e43e3e;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
 .content {
     width: 80%;
     max-width: 1000px;
